@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+
+<!--CONTAINS WELCOME PAGE ELEMENTS-->
+
+<body class="container">
+    <div id="welcome">
+        <h1>PRECT (Pre-Reg Exam Clinical Test)</h1>
+        <img id="welcome-img" src="website image/drug-img.png" alt="pharmacy-logo">
+        <h2>Test your pre-reg clinical knowledge with over 100+ clinical questions to answer.</h2>
+
+        <p>The quiz will generate 10 random clinical questions for you to answer.</p>
+        <p>You'll have 30 seconds to answer each question.</p>
+        <p>Good Luck!</p>
+
+        <button id="start-quiz">Start Quiz</button>
+    </div>
+
+    <!--CONTAINS QUIZ ELEMENTS-->
+    <div id="quiz">
+        <div id="timer-holder">Timer: <span id="timer"></span> seconds left</div>
+        <p class="question"></p>
+        <div class="choices">
+            <button id="choice-one" class="choice-options"></button>
+            <button id="choice-two" class="choice-options"></button>
+            <button id="choice-three" class="choice-options"></button>
+            <button id="choice-four" class="choice-options"></button>
+            <button id="choice-five" class="choice-options"></button>
+        </div>
+        <pre class="log"></pre>
+        <p>Score: <span class="score"></span> out of <span class="attempts"></span> correct.<span
+                class="percent-correct"></span></p>
+        <button id="next-question" class="end-buttons">Next Question</button>
+        <button id="end-quiz" class="end-buttons">End Quiz</button>
+    </div>
+
+    <!--CONTAINS END OF QUIZ ELEMENTS-->
+    <div id="end-alert" class="alert">
+        <p id="end-log"><span id="score-modifier-text"></span>, you got <br>
+            <div id="complete-score"><span id="final-score"></span>/10</div> <br>questions correct
+        </p>
+        <button id="try-again">Try Again</button>
+    </div>
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
