@@ -2,10 +2,9 @@
 * [General information](#general-information)
 * [Motivation](#motivation)
 * [How to use](#how-to-use)
-* [Demo](#demo)
-* [Screenshots](#screenshots)
 * [Features](#features)
 * [Technology used](#technology-used)
+* [Screenshots](#screenshots)
 
 ## General information
 PRECT (Pre-Reg Exam Clinical Test) is a pharmacy quiz that tests pre-registration pharmacy students on their clinical knowledge.
