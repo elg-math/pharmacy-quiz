@@ -128,6 +128,12 @@ const questionData = [{
         question: "Which of the following drugs cause blue urine?",
         choices: ["Co-triamterzide", "Senna", "Co-danthramer", "Nefopam", "Rifabutin"],
         correctAnswer: "Co-triamterzide",
+    },
+    {
+        subject: "blueUrine",
+        question: "Which of the following drugs cause blue urine?",
+        choices: ["Co-triamterzide", "Senna", "Co-danthramer", "Nefopam", "Rifabutin"],
+        correctAnswer: "Co-triamterzide",
     }
 ];
 
@@ -258,10 +264,10 @@ for (let i = 0; i < choiceOptions.length; i++) {
             for (let j = 0; j < choiceOptions.length; j++) {
                 choiceOptions[j].removeAttribute("onclick");
             }
-            if (answeredQuestionsIndexes.length !== 5) {
+            if (answeredQuestionsIndexes.length !== 10) {
                 nextQuestion.style.display = "block";
             }
-            //if answered 5 questions, console log that no more questions left (eventually say quiz over and give them their score) 
+            //if answered 10 questions, console log that no more questions left (eventually say quiz over and give them their score) 
             else {
                 console.log("End of Quiz");
             }
@@ -277,12 +283,12 @@ for (let i = 0; i < choiceOptions.length; i++) {
         getAttempts.textContent++;
         for (let k = 0; k < choiceOptions.length; k++) {
             choiceOptions[k].removeAttribute("onclick");
-            //if not answered 5 quesitons, show next question button, otherwise console.log saying e3nd of quiz
+            //if not answered 10 quesitons, show next question button, otherwise console.log saying e3nd of quiz
         }
-        if (answeredQuestionsIndexes.length !== 5) {
+        if (answeredQuestionsIndexes.length !== 10) {
             nextQuestion.style.display = "block";
         }
-        //if answered 5 questions, console log that no more questions left (eventually say quiz over and give them their score) 
+        //if answered 10 questions, console log that no more questions left (eventually say quiz over and give them their score) 
         else {
             console.log("End of Quiz");
         }
