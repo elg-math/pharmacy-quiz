@@ -33,12 +33,12 @@ Project is created with:
 * JavaScript
 
 ## Screenshots
-![Image of PRECT screenshot](https://freeimage.host/i/FGzpNn)
-![Image of PRECT screenshot](https://freeimage.host/i/FGzmAX)
-![Image of PRECT screenshot](https://freeimage.host/i/FGzb9t)
-![Image of PRECT screenshot](https://freeimage.host/i/FGztSI)
-![Image of PRECT screenshot](https://freeimage.host/i/FGzyts)
-![Image of PRECT screenshot](https://freeimage.host/i/FGIHoG)
+![Image of PRECT screenshot](https://iili.io/FGzpNn.png)
+![Image of PRECT screenshot](https://iili.io/FGzmAX.png)
+![Image of PRECT screenshot](https://iili.io/FGzb9t.png)
+![Image of PRECT screenshot](https://iili.io/FGztSI.png)
+![Image of PRECT screenshot](https://iili.io/FGzyts.png)
+![Image of PRECT screenshot](https://iili.io/FGIHoG.png)
 
 
 
